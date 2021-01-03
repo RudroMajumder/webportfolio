@@ -4,11 +4,23 @@ h1{
 }
 body{
     font-family: 'PT Sans', sans-serif;
-    margin:5% 5%;
 }
-#heading-span{
-    color:orange;
+.first-section{
+    width: 35%;
+    float: left;
+    margin: 2% 2%;
+    padding-left: 50px;
 }
-#info-paragraph{
-    width: 40%;
+.profile-image{
+    width: 80%;
+    float: right;
+}
+#contact-me{
+   background-color: rgb(240, 134, 116);
+   padding: 10px 10px ;
+   border-radius: 20px;
+}
+#contact-me:hover{
+    background-color: rgb(236, 99, 74);
+    transform: scale(1.1,1.1);
 }
