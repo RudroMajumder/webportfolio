@@ -1,0 +1,14 @@
+h1{
+    font-size:40px;
+    
+}
+body{
+    font-family: 'PT Sans', sans-serif;
+    margin:5% 5%;
+}
+#heading-span{
+    color:orange;
+}
+#info-paragraph{
+    width: 40%;
+}
