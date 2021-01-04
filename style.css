@@ -8,7 +8,7 @@ body{
 .half-width{
     width: 40%;
     float: left;
-    margin: 2% 2%;
+    margin: 0 2%;
     padding-left: 50px;
 }
 .profile-image{
@@ -33,7 +33,7 @@ body{
 }
 .profile-image2{
     width: 70%;
-    padding-top: 20px;
+
 }
 h2{
     font-size: 40px;
@@ -48,7 +48,38 @@ h2{
 .mid-section{
     width: 40%;
     float: left;
-    margin: 2% 2%;
+    margin: 0 2%;
+    margin-bottom: 2px;
     padding-left: 50px; 
 }
-
+.experience-section{
+    margin-bottom: 5px;
+    height: 500px;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 7%;
+}
+.experience{
+    box-shadow: 10px 10px 40px gray;
+    width: 30%;
+    padding-left: 20px;
+    margin-left: 10%;
+}
+#sidebar1{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#sidebar2{
+    border-right: 7px solid;
+    border-image: linear-gradient(blue,skyblue);
+    border-image-slice: 1;
+}
+footer{
+    background-color: rgb(92, 133, 221);
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 8px;
+}
